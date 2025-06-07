@@ -1,0 +1,92 @@
+[
+  {
+    "section": 1,
+    "name": "Colonist",
+    "god": "Venus",
+    "cost": [0,0,1,0,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Diplomat",
+    "god": "Saturnus",
+    "cost": [0,0,0,1,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Diplomat",
+    "god": "Saturnus",
+    "cost": [0,0,0,1,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Farmer",
+    "god": "Minerva-Food",
+    "cost": [0,0,1,0,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Smith",
+    "god": "Minerva-Tool",
+    "cost": [0,1,0,1,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Arhitect",
+    "god": "Jupiter",
+    "cost": [0,0,0,1,0,0]
+  },
+  {
+    "section": 1,
+    "name": "Prefect-Architect",
+    "god": "Venus",
+    "cost": [0,0,0,0,1,0]
+  },
+  {
+    "section": 1,
+    "name": "Mercator",
+    "god": "Mercurius",
+    "cost": [0,0,0,0,1,0]
+  },
+  {
+    "section": 2,
+    "name": "Vintner",
+    "god": "Minerva-Wine",
+    "cost": [0,1,0,0,1,0]
+  },
+  {
+    "section": 2,
+    "name": "Weaver",
+    "god": "Minerva-Cloth",
+    "cost": [0,1,0,0,0,1]
+  },
+  {
+    "section": 2,
+    "name": "Mason",
+    "god": "Minerva-Brick",
+    "cost": [0,1,0,0,0,0]
+  },
+  {
+    "section": 2,
+    "name": "Colonist",
+    "god": "Mars",
+    "cost": [0,1,0,0,0,0]
+  },
+  {
+    "section": 2,
+    "name": "Consul",
+    "god": "Jupiter",
+    "cost": [0,0,0,0,0,1]
+  },
+  {
+    "section": 2,
+    "name": "Weaver",
+    "god": "Minerva-Cloth",
+    "cost": [0,1,0,0,0,1]
+  },
+  {
+    "section": 2,
+    "name": "Weaver",
+    "god": "Minerva-Cloth",
+    "cost": [0,1,0,0,0,1]
+  }
+]

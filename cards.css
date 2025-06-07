@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background: #f2f2f2;
+  }
+  
+  .grid-container-no-gap {
+    display: grid;
+    grid-template-columns: 0.1fr 0.5fr 0.1fr; /* Columns sized using fr units */
+  
+    grid-auto-rows: 25px;
+    /*column-gap: 2px; /* Space between grid items */*/
+    row-gap: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-no-border {
+  background-color: transparent;
+  /*overflow: hidden;*/
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+
+.divider {
+  height: 5px;
+  background-color: blue;
+  width: 100%;
+  margin: 5px 0;
+}
