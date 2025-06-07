@@ -79,14 +79,56 @@
   },
   {
     "section": 2,
-    "name": "Weaver",
-    "god": "Minerva-Cloth",
-    "cost": [0,1,0,0,0,1]
+    "name": "Mercator",
+    "god": "Mercurius",
+    "cost": [0,0,0,0,1,0]
   },
   {
     "section": 2,
-    "name": "Weaver",
-    "god": "Minerva-Cloth",
-    "cost": [0,1,0,0,0,1]
+    "name": "Prefect",
+    "god": "Saturnus",
+    "cost": [0,0,0,0,1,0]
+  },
+  {
+    "section": 2,
+    "name": "Architect-Mercator",
+    "god": "Venus",
+    "cost": [0,0,1,0,0,0]
+  }, 
+  {
+    "section": 3,
+    "name": "Prefect",
+    "god": "Saturnus",
+    "cost": [0,0,0,0,1,0]
+  },   
+  {
+    "section": 3,
+    "name": "Diplomat",
+    "god": "Saturnus",
+    "cost": [0,1,0,0,0,0]
+  },   
+  {
+    "section": 3,
+    "name": "Consul",
+    "god": "Jupiter",
+    "cost": [0,0,0,0,0,1]
+  },   
+  {
+    "section": 3,
+    "name": "Colonist",
+    "god": "Mars",
+    "cost": [0,0,1,0,0,0]
+  },   
+  {
+    "section": 3,
+    "name": "Prefect-Mercator",
+    "god": "Venus",
+    "cost": [0,0,0,0,1,0]
+  },   
+  {
+    "section": 3,
+    "name": "Architect",
+    "god": "Jupiiter",
+    "cost": [0,0,0,1,0,0]
   }
 ]
