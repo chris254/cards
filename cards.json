@@ -3,19 +3,25 @@
     "section": 1,
     "name": "Colonist",
     "god": "Venus",
-    "cost": [0,0,1,0,0,0]
+    "cost": [0,0,1,0,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
     "name": "Diplomat",
     "god": "Saturnus",
-    "cost": [0,0,0,1,0,0]
+    "cost": [0,0,0,1,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
     "name": "Diplomat",
     "god": "Saturnus",
-    "cost": [0,0,0,1,0,0]
+    "cost": [0,0,0,1,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
@@ -27,108 +33,144 @@
     "section": 1,
     "name": "Smith",
     "god": "Minerva-Tool",
-    "cost": [0,1,0,1,0,0]
+    "cost": [0,1,0,1,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
     "name": "Arhitect",
     "god": "Jupiter",
-    "cost": [0,0,0,1,0,0]
+    "cost": [0,0,0,1,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
     "name": "Prefect-Architect",
     "god": "Venus",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 1,
     "name": "Mercator",
     "god": "Mercurius",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Vintner",
     "god": "Minerva-Wine",
-    "cost": [0,1,0,0,1,0]
+    "cost": [0,1,0,0,1,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Weaver",
     "god": "Minerva-Cloth",
-    "cost": [0,1,0,0,0,1]
+    "cost": [0,1,0,0,0,1],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Mason",
     "god": "Minerva-Brick",
-    "cost": [0,1,0,0,0,0]
+    "cost": [0,1,0,0,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Colonist",
     "god": "Mars",
-    "cost": [0,1,0,0,0,0]
+    "cost": [0,1,0,0,0,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Consul",
     "god": "Jupiter",
-    "cost": [0,0,0,0,0,1]
+    "cost": [0,0,0,0,0,1],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Mercator",
     "god": "Mercurius",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Prefect",
     "god": "Saturnus",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },
   {
     "section": 2,
     "name": "Architect-Mercator",
     "god": "Venus",
-    "cost": [0,0,1,0,0,0]
+    "cost": [0,0,1,0,0,0],
+    "available": true,
+    "owner": ""
   }, 
   {
     "section": 3,
     "name": "Prefect",
     "god": "Saturnus",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },   
   {
     "section": 3,
     "name": "Diplomat",
     "god": "Saturnus",
-    "cost": [0,1,0,0,0,0]
+    "cost": [0,1,0,0,0,0],
+    "available": true,
+    "owner": ""
   },   
   {
     "section": 3,
     "name": "Consul",
     "god": "Jupiter",
-    "cost": [0,0,0,0,0,1]
+    "cost": [0,0,0,0,0,1],
+    "available": true,
+    "owner": ""
   },   
   {
     "section": 3,
     "name": "Colonist",
     "god": "Mars",
-    "cost": [0,0,1,0,0,0]
+    "cost": [0,0,1,0,0,0],
+    "available": true,
+    "owner": ""
   },   
   {
     "section": 3,
     "name": "Prefect-Mercator",
     "god": "Venus",
-    "cost": [0,0,0,0,1,0]
+    "cost": [0,0,0,0,1,0],
+    "available": true,
+    "owner": ""
   },   
   {
     "section": 3,
     "name": "Architect",
     "god": "Jupiiter",
-    "cost": [0,0,0,1,0,0]
+    "cost": [0,0,0,1,0,0],
+    "available": true,
+    "owner": ""
   }
 ]

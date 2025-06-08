@@ -10,7 +10,6 @@ body {
     grid-template-columns: 0.1fr 0.5fr 0.1fr; /* Columns sized using fr units */
   
     grid-auto-rows: 25px;
-    /*column-gap: 2px; /* Space between grid items */*/
     row-gap: 0px;
     width: 100%;
     height: auto;
