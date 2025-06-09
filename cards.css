@@ -7,7 +7,7 @@ body {
   
   .grid-container-no-gap {
     display: grid;
-    grid-template-columns: 0.1fr 0.5fr 0.1fr; /* Columns sized using fr units */
+    grid-template-columns: 0.1fr 0.5fr 0.1fr 0.1fr 0.1fr; /* Columns sized using fr units */
   
     grid-auto-rows: 25px;
     row-gap: 0px;

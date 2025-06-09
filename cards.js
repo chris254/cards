@@ -30,6 +30,16 @@ function displayCards() {
     Elem("name",rowNumber).textContent = cards[dataIndex].name;
     Elem("god",rowNumber).textContent = cards[dataIndex].god;
 
+    let costText = "";
+    if (cards[dataIndex].cost[1] === 1) costText += "B"; else costText += " ";  
+    if (cards[dataIndex].cost[2] === 1) costText += "F"; else costText += " ";  
+    if (cards[dataIndex].cost[3] === 1) costText += "T"; else costText += " ";  
+    if (cards[dataIndex].cost[4] === 1) costText += "W"; else costText += " ";  
+    if (cards[dataIndex].cost[5] === 1) costText += "C"; else costText += " ";  
+    //Elem("cost",rowNumber).style.justifyContent = "start";
+    Elem("cost",rowNumber).textContent = costText;
+
+
     if (cards[dataIndex].god === "Saturnus") {
       Elem("god",rowNumber).style.backgroundColor = "rgb(236, 214, 90)";
     };
@@ -49,6 +59,14 @@ function displayCards() {
       Elem("god",rowNumber).style.backgroundColor = "rgb(189, 240, 166)";
     };
   }
+
+  Elem("costadd",1).textContent = " ";
+  Elem("costadd",2).textContent = "?";
+  Elem("costadd",3).textContent = "?";
+  Elem("costadd",4).textContent = "C";
+  Elem("costadd",5).textContent = "C";
+  Elem("costadd",6).textContent = "C";
+  Elem("costadd",7).textContent = "CC";
 
 
 }
