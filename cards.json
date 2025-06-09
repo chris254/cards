@@ -5,7 +5,8 @@
     "god": "Venus",
     "cost": [0,0,1,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 0
   },
   {
     "section": 1,
@@ -13,21 +14,15 @@
     "god": "Saturnus",
     "cost": [0,0,0,1,0,0],
     "available": true,
-    "owner": ""
-  },
-  {
-    "section": 1,
-    "name": "Diplomat",
-    "god": "Saturnus",
-    "cost": [0,0,0,1,0,0],
-    "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 1
   },
   {
     "section": 1,
     "name": "Farmer",
     "god": "Minerva-Food",
-    "cost": [0,0,1,0,0,0]
+    "cost": [0,0,1,0,0,0],
+    "index": 2
   },
   {
     "section": 1,
@@ -35,7 +30,8 @@
     "god": "Minerva-Tool",
     "cost": [0,1,0,1,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 3
   },
   {
     "section": 1,
@@ -43,7 +39,9 @@
     "god": "Jupiter",
     "cost": [0,0,0,1,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 4
+
   },
   {
     "section": 1,
@@ -51,7 +49,8 @@
     "god": "Venus",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 5
   },
   {
     "section": 1,
@@ -59,7 +58,8 @@
     "god": "Mercurius",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 6
   },
   {
     "section": 2,
@@ -67,7 +67,8 @@
     "god": "Minerva-Wine",
     "cost": [0,1,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 7
   },
   {
     "section": 2,
@@ -75,7 +76,8 @@
     "god": "Minerva-Cloth",
     "cost": [0,1,0,0,0,1],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 8
   },
   {
     "section": 2,
@@ -83,7 +85,8 @@
     "god": "Minerva-Brick",
     "cost": [0,1,0,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 9
   },
   {
     "section": 2,
@@ -91,7 +94,8 @@
     "god": "Mars",
     "cost": [0,1,0,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 10
   },
   {
     "section": 2,
@@ -99,7 +103,8 @@
     "god": "Jupiter",
     "cost": [0,0,0,0,0,1],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 11
   },
   {
     "section": 2,
@@ -107,7 +112,8 @@
     "god": "Mercurius",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 12
   },
   {
     "section": 2,
@@ -115,7 +121,8 @@
     "god": "Saturnus",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 13
   },
   {
     "section": 2,
@@ -123,7 +130,8 @@
     "god": "Venus",
     "cost": [0,0,1,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 14
   }, 
   {
     "section": 3,
@@ -131,7 +139,8 @@
     "god": "Saturnus",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 15
   },   
   {
     "section": 3,
@@ -139,7 +148,8 @@
     "god": "Saturnus",
     "cost": [0,1,0,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 16
   },   
   {
     "section": 3,
@@ -147,7 +157,8 @@
     "god": "Jupiter",
     "cost": [0,0,0,0,0,1],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 17
   },   
   {
     "section": 3,
@@ -155,7 +166,8 @@
     "god": "Mars",
     "cost": [0,0,1,0,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 18
   },   
   {
     "section": 3,
@@ -163,7 +175,8 @@
     "god": "Venus",
     "cost": [0,0,0,0,1,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 19
   },   
   {
     "section": 3,
@@ -171,6 +184,7 @@
     "god": "Jupiiter",
     "cost": [0,0,0,1,0,0],
     "available": true,
-    "owner": ""
+    "owner": "",
+    "index": 20
   }
 ]

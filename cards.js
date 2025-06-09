@@ -22,25 +22,99 @@ function Elem(column_, row_) {
   }
 }
 
-function displayCards(cards_) {
+function displayCards() {
 
-  for (let rowNumber=0; rowNumber < window.gridRowCount; rowNumber++) {
-    Elem("section",rowNumber).textContent = cards_[rowNumber].section;
-    Elem("name",rowNumber).textContent = cards_[rowNumber].name;
-    Elem("god",rowNumber).textContent = cards_[rowNumber].god;
+  for (let dataIndex=0; dataIndex <= window.lastCardsRowIndex; dataIndex++) {
+    let rowNumber = dataIndex + 1;
+    Elem("section",rowNumber).textContent = cards[dataIndex].section;
+    Elem("name",rowNumber).textContent = cards[dataIndex].name;
+    Elem("god",rowNumber).textContent = cards[dataIndex].god;
+
+    if (cards[dataIndex].god === "Saturnus") {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(236, 214, 90)";
+    };
+    if (cards[dataIndex].god === "Venus") {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(25, 141, 25)";
+    };
+    if (cards[dataIndex].god === "Jupiter") {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(117, 202, 223)";
+    };
+    if (cards[dataIndex].god === "Mercurius") {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(158, 105, 70)";
+    };
+    if (cards[dataIndex].god === "Mars") {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(240, 165, 105)";
+    };
+    if (cards[dataIndex].god.includes("Minerva")) {
+      Elem("god",rowNumber).style.backgroundColor = "rgb(189, 240, 166)";
+    };
   }
+
 
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
 
-  window.cards = await fetchCardData();
-  window.gridRowCount = window.cards.length;
-  displayCards(window.cards);
+  cards = await fetchCardData();
+  window.gridRowCount = cards.length;
+  window.lastCardsRowIndex = cards.length - 1;
+  displayCards();
 
 });
 
-function SelectCard(rowNumber_) {
-  console.log(rowNumber_);
+function CardIndexFromRow(rowNumber_) {
+  return rowNumber_ - 1;
+}
+
+function MoveRow(fromRow_, toAboveRow_) {
+
+  let currentRowContents = {
+    section: 0,
+    name: "",
+    god: "",
+    cost: [0,0,1,0,0,0],
+    available: true,
+    owner: ""
+  }
+
+  let fromIndex = fromRow_ - 1;
+  let toIndex = toAboveRow_ - 1;
+
+  // remove the element
+  const [element] = cards.splice(fromIndex, 1);
+  const adjustedIndex = fromIndex < toIndex ? toIndex - 1 : toIndex;  
+  cards.splice(adjustedIndex, 0, element);
+
+
+}
+
+function SelectCard(gridRowNumber_) {
+
+  // gridRowNumber_ is the physical positin in the grid
+
+  if (gridRowNumber_ != 0) {
+
+    if (cardsMode === CardsModeType.MOVE) {
+      if (window.moveState === 0) {
+
+        window.moveFromRow = gridRowNumber_;
+        window.moveState = 1;
+        console.log ("swap state from row = " + gridRowNumber_);
+      }
+      else {
+        // perform the swap
+        window.moveTo = gridRowNumber_;
+        console.log ("swap state to row = " + gridRowNumber_);
+        MoveRow(window.moveFromRow,window.moveTo);
+        displayCards();
+
+
+//        SwapTwoRows(window.swapStateRows[0],window.swapStateRows[1]);
+
+        window.moveState = 0;
+
+      }
+    }
+  }
 
 }
